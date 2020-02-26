@@ -82,7 +82,7 @@ class YOLOv3:
                  class_path="data/coco.names",
                  weights_path="weights/yolov3.weights",
                  conf_thres=0.2,
-                 nms_thres=0.4,
+                 nms_thres=0.3,
                  img_size=416,
                  classes=None,
                  max_batch_size=16,
